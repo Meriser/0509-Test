@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>0509 test</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+
+        a {
+            text-decoration: none;
+            color: dodgerblue;
+            display: block;
+        }
+
+        .header {
+            background-color: #eee;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 1rem;
+        }
+
+        .header__logo {
+            padding: 2rem;
+            background-color: dodgerblue;
+            border-radius: 500px;
+            transition: 0.3s all;
+        }
+        .header__logo:hover {
+            box-shadow: 0 0 30px dodgerblue;
+            background-color: #eee;
+        }
+
+        .menu {
+            display: flex;
+        }
+
+        .menu__list {
+            padding: 0.5rem;
+            font-size: 1.25rem;
+            transition: 0.2s all;
+        }
+
+        .menu__list:hover {
+            box-shadow: 0 0 2px dodgerblue;
+            background-color: #fff;
+        }
+
+        .banner {
+            background-color: #eee;
+            padding: 8rem;
+            text-align: center;
+            font-size: 3rem;
+            margin-bottom: 2rem;
+        }
+
+        .main {
+            line-height: 2;
+            margin-bottom: 2rem;
+        }
+        .main__info {
+            color: gray;
+            font-size: 1.25rem;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 2rem;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <h1>
+            <a href="#" class="header__logo"></a>
+        </h1>
+        <ul class="menu">
+            <li><a href="#" class="menu__list">Menu 1</a></li>
+            <li><a href="#" class="menu__list">Menu 2</a></li>
+            <li><a href="#" class="menu__list">Menu 3</a></li>
+        </ul>
+    </header>
+
+    <div class="banner">Banner</div>
+
+    <main class="main">
+        <p class="main__info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio eligendi accusantium
+            quo reiciendis, repudiandae consequatur blanditiis hic distinctio laudantium, ad architecto eius, cum soluta
+            veniam molestias vitae eos minus?
+        </p>
+        <p class="main__info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio eligendi accusantium
+            quo reiciendis, repudiandae consequatur blanditiis hic distinctio laudantium, ad architecto eius, cum soluta
+            veniam molestias vitae eos minus?
+        </p>
+        <p class="main__info">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam odio eligendi accusantium
+            quo reiciendis, repudiandae consequatur blanditiis hic distinctio laudantium, ad architecto eius, cum soluta
+            veniam molestias vitae eos minus?
+        </p>
+    </main>
+
+    <footer class="footer">
+        2022 / 05 /09 GitHub 部署測試用檔案 - Meri -
+    </footer>
+</body>
+
+</html>
